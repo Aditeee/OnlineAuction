@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+   {{>header}}
+   <link rel="stylesheet" type="text/css" href="css/styleR.css">
+</head>
+<body class="bo">
+    <div class="regform"><h1>Registration Form</h1></div>
+   <div class="main">
+        <form action="/register" method="POST">
+            <div  id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text"  name="firstname" value=""><br>
+                <label class="firstlabel" for="" >First Name</label>
+                <input class="lastname" type="text" name="lastname" value="">
+                <label class="lastlabel" >last name</label>
+            </div>
+
+            <h2 class="name">Bidding Company</h2>
+            <input class="company" type="text" name="company" value="">
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email" value="">
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="number" name="areacode" value="">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="number" name="phone">
+            <label class="phone-number" >Phone Number</label>
+
+           <!-- <h2 class="name">Subject</h2>
+            <select class="option" name="subject" >
+                <option disabled="disabled" selected="selected">--Choose Option--</option>
+                <option>Subject 1</option>
+                <option>Subject 2</option>
+                <option>Subject 3</option>
+            </select>-->
+
+            <h2 class="name" id="occupation">Occupation</h2>
+            <label class="radio" >
+                <input class="radio-one" type="radio" checked="checked" name="Occupation" value="student">
+                <span class="checkmark"></span>
+                Student
+            </label>
+            <label class="radio" >
+                <input class="radio-two" type="radio" checked="checked" name="Occupation" value="Government Employee">
+                <span class="checkmark"></span>
+                Government Employee
+            </label>
+            <label class="radio" >
+                <input class="radio-three" type="radio" checked="checked" name="Occupation" value="private">
+                <span class="checkmark"></span>
+                Private
+            </label>
+            <label class="radio" >
+                <input class="radio-four" type="radio" checked="checked" name="Occupation" value="Business">
+                <span class="checkmark"></span>
+                Business
+            </label>
+            <label class="radio" >
+                <input class="radio-five" type="radio" checked="checked" name="Occupation" value="House Maker">
+                <span class="checkmark"></span>
+                House-maker 
+            </label>
+            <label class="radio" >
+                <input class="radio-six" type="radio" checked="checked" name="Occupation" value="other">
+                <span class="checkmark"></span>
+                Other
+            </label>
+
+            <h2 class="name">Password</h2>
+            <input class="email" type="password" name="password" value="">
+
+            <h2 class="name">Confirm password</h2>
+            <input class="email" type="password" name="confirmpassword" value="">
+            
+            <input class="button" type="submit" value="Register">
+            
+        </form>
+   </div>
+</body>
+</html>

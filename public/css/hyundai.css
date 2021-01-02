@@ -1,0 +1,45 @@
+
+.bidding-box
+{
+   text-decoration: white;
+   margin-left: 700px;
+   text-align: center;
+   font-size: x-large;
+   margin-bottom: 60px;
+   width:300px;
+   height: 335px;
+   background-color:rgb(65, 63, 63);
+}
+.boundary
+{
+    background-color:  rgb(30, 127, 131);
+    margin-top: 10px;
+    border: 3px solid black;
+}
+.bidding-details
+{
+    color:white;
+    margin-left: 240px;
+    float: left;
+}
+.head-of
+{
+    color:white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: fantasy;
+}
+.input-box
+{
+    margin-top: 50px;
+    margin-left: 10px;
+    width:200px;
+}
+.bid-button
+{
+    border:2px solid black;
+    width: 120px;
+    height: 50px;
+    background-color:gray;
+    margin-left: 180px;
+}
